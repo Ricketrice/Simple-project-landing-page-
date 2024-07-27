@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    color: white;
+    background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logos {
+    width: 400px;
+    height: 80px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.logo {
+    width: 150px;
+    height: 110px;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.part {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    padding-bottom: 50px;
+    
+    /*
+    margin: 50px; */
+}
+
+.second_head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.space {
+    height: 50px;
+    background-color: #1F2937
+}
+
+.founder {
+    width: 200px;
+    height: 200px;
+    margin-right: 80px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+.space2 {
+    margin-top: 10px;
+}
+
+.lay {
+    font-size: 60px;
+    margin-right: 120px;
+}
+.intro {
+    width: 600px;
+}
+
+button {
+    background-color: #3882F6;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+    height: 30px;
+    color: white;
+}
+
+.tree {
+    width: 350px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 30px;;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.body {
+    flex-wrap: nowrap;
+    gap: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.box1, .box2 {
+    width: 350px;
+}
+
+
+.space2 {
+    display: block; 
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    text-align: center;
+}
+
+.box_ch {
+    padding-top: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    height: 200px;
+    align-self: center;
+    align-items: center;
+    display: inline-block;
+    padding-top: 100px;
+}
